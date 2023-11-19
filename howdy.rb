@@ -5,7 +5,7 @@ pp my_string
 require "./goodbye.rb"
 require "active_support/all"
 
-1.ordinalize    # => "1st"
+pp 1.ordinalize    # => "1st"
 2.ordinalize    # => "2nd"
 53.ordinalize   # => "53rd"
 2009.ordinalize # => "2009th"
